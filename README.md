@@ -30,7 +30,7 @@
 ```bash
 # 1. Clone the repo (if you haven't)
 git clone https://github.com/bmanish55/BannerCreator.git
-cd BannerCreator
+cd Banner-Generator-master
 
 # 2. Install dependencies
 npm install
