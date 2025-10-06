@@ -1,0 +1,32 @@
+$sideTabWidth: 50px;
+$sidePaneWidth: 200px;
+$topLayer: 100;
+
+.sidetab {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #393f4c;
+  width: $sideTabWidth;
+  height: 100%;
+  z-index: $topLayer;
+}
+
+.sidePane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-left: 1px solid #fff;
+  position: fixed;
+  left: $sideTabWidth;
+  top: 0;
+  background-color: #393f4c;
+  width: $sidePaneWidth;
+  height: 100%;
+}
